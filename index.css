@@ -47,10 +47,43 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+
+}
 html {
     font-size: 62.5%
 }
 
 body {
     font-family: 'Roboto Mono';
+}
+
+button {
+    display: inline-block;
+    font-family: 'Roboto Mono';
+    text-align: center;
+    text-decoration: none;
+    font-size: 200%;
+    border-radius: 18px;
+    color: white;
+    padding:  13px 30px 13px 30px;
+    max-width: 25%;
+    height: 7rem;
+}
+
+.burntOrange {
+    background-color: #FF764E;
+}
+
+.babyBlue {
+    background-color: #5ED3EB;
+}
+
+.yellow {
+    background-color: #FFCD69;
 }
