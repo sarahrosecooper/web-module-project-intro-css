@@ -71,9 +71,10 @@ button {
     font-size: 200%;
     border-radius: 18px;
     color: white;
-    padding:  13px 30px 13px 30px;
-    max-width: 25%;
-    height: 7rem;
+    padding:  13px 30px 18px 30px;
+    width: 10em;
+    height: 7.5rem;
+    margin: 25px;
 }
 
 .burntOrange {
@@ -86,4 +87,11 @@ button {
 
 .yellow {
     background-color: #FFCD69;
+}
+
+.roundedHeaderImage {
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
 }
