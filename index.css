@@ -137,11 +137,19 @@ header {
     padding: 20px;
 }
 
-section img {
-    width: 20%;
+.faviconSection {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+   width:27%;
+    padding: 20px;
 }
 
-.faviconSection {
+.faviconSection img {
+    width: 15%;
     margin: 0 auto;
-        width:20%;
+}
+
+.faviconSection section {
+    width:200%;
 }
