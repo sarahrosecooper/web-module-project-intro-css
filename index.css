@@ -62,6 +62,10 @@ body {
     font-family: 'Roboto Mono';
 }
 
+nav, .footerButtons {
+    text-align: center;
+}
+
 button {
     display: inline-block;
     font-family: 'Roboto Mono';
