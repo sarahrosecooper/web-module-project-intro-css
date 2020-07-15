@@ -70,7 +70,10 @@ nav, .footerButtons {
     animation: flip; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 4s; 
 }
-
+a {
+    text-decoration: none;
+    color: white;
+}
 button {
     display: inline-block;
     font-family: 'Roboto Mono';
