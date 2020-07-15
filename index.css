@@ -77,7 +77,10 @@ button {
     padding:  13px 30px 18px 30px;
     width: 10em;
     height: 7.5rem;
-    margin: 25px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 115px;
+    border: none;
 }
 
 .burntOrange {
@@ -94,8 +97,8 @@ button {
 
 .roundedHeaderImage {
     display: inline-block;
-    height: 30%;
-    width: 30%;
+    height: 25%;
+    width: 25%;
     border-radius: 50%;
 }
 
@@ -106,13 +109,39 @@ h1 {
     margin: 5rem;
 }
 
+header {
+    text-align: center;
+    margin: 20px;
+    margin-top: 0;
+    height: 75%;
+    
+}
+
 .headerClass {
     display: inline-block;
     margin: 0;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     text-align: center;
 }
 
 .headerAbout {
     font-size: 1.4em;
+}
+
+.aboutText {
+    background-color: #DDB9A3;
+    color: white;
+    font-size: 2em;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section img {
+    width: 20%;
+}
+
+.faviconSection {
+    margin: 0 auto;
+        width:20%;
 }
