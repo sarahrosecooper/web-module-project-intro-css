@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+
+}
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-family: 'Roboto Mono';
+}
+
+nav, .footerButtons {
+    text-align: center;
+}
+
+.animateWiggle:hover {
+    animation: flip; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; 
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+button {
+    display: inline-block;
+    font-family: 'Roboto Mono';
+    text-align: center;
+    text-decoration: none;
+    font-size: 200%;
+    border-radius: 18px;
+    color: white;
+    padding:  13px 30px 18px 30px;
+    width: 10em;
+    height: 7.5rem;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 115px;
+    border: none;
+}
+
+.burntOrange {
+    background-color: #FF764E;
+}
+
+.babyBlue {
+    background-color: #5ED3EB;
+}
+
+.yellow {
+    background-color: #FFCD69;
+}
+
+.roundedHeaderImage {
+    display: inline-block;
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
+    margin: 5rem;
+}
+
+span {
+    font-weight: 900;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+    margin-top: 0;
+    height: 75%;
+    
+}
+
+.headerClass {
+    display: inline-block;
+    margin: 0;
+    line-height: 2.5rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+.headerAbout {
+    font-size: 2.4em;
+}
+
+.aboutText {
+    background-color: #DDB9A3;
+    color: white;
+    font-size: 2em;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faviconSection {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+   width:27%;
+    padding: 20px;
+}
+
+.faviconSection img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.faviconSection section {
+    width:200%;
+}
+
+.container, .fire {
+    margin-bottom: 50px;
+}
+
+/*.mountains {
+max-height: 300px;
+}*/
+
+footer {
+    width: 100%
+    height: 30%;
+}
+
+.footerIMG {
+    width: 100%;
+    height: 35vh;
+    #F9E7DC
+}
+
+.footerButtons {
+    background-color: #F9E7DC;
+}
+/*.footerButtons {
+    background-image: url(assets/footer_img.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*background-size: cover;/*
+}
